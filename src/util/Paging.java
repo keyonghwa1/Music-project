@@ -24,7 +24,7 @@ public class Paging {
 	private void calc() {
 		// 전체 항목 40, 한 화면에 10개라면 --> 전체 페이지는 4
 		// 전체 항목 41, 한 화면에 10개라면 --> 전체 페이지는 5
-		totalPage = (totalCount-1) / pageSize + 1;
+		totalPage = (totalCount-1) / pageSize + 1; 
 		
 		// 근데 요청 페이지가 전체 페이지 수보다 크면, 그냥 마지막 페이지로 설정한다 (잘못된 요청)
 		if( currentPage > totalPage ) {

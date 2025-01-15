@@ -30,5 +30,5 @@ public class IdSearchAction extends HttpServlet {
 		request.setAttribute("list", list);
 		RequestDispatcher disp = request.getRequestDispatcher("../sns/id_list.jsp");
 		disp.forward(request, response);
-	}
+	} 
 }

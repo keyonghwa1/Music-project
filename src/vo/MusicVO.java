@@ -28,7 +28,7 @@ public class MusicVO {
 	public int getM_goodpoint() {
 		return m_goodpoint;
 	}
-	public void setM_goodpoint(int m_goodpoint) {
+	public void setM_goodpoint(int m_goodpoint) { 
 		this.m_goodpoint = m_goodpoint;
 	}
 	public int getM_no() {

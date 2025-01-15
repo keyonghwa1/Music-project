@@ -26,7 +26,7 @@ public class MemberVO {
 		return people_no;
 	}
 
-	public void setPeople_no(int people_no) {
+	public void setPeople_no(int people_no) { 
 		this.people_no = people_no;
 	}
 

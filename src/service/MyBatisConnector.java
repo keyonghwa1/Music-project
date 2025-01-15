@@ -30,6 +30,6 @@ public class MyBatisConnector {
 		}
 	}
 	public SqlSessionFactory getSqlSessionFactory() {
-		return factory;
+		return factory; 
 	}
 }
