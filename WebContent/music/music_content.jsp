@@ -20,7 +20,7 @@
 			sendRequest(url, param, resultFn, "POST");
 		}
 		function resultFn() {
-			if( xhr.readyState == 4 && xhr.status == 200 ) {
+			if( xhr.readyState == 4 && xhr.status == 200 ) { 
 				var data = xhr.responseText;
 				var json = eval(data);
 				if( json[0].result == 'yes' ) {

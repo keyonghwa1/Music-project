@@ -20,7 +20,7 @@
 				align : center;
 				text-align : center;
 				margin : auto;
-				margin-bottom : 6px; }
+				margin-bottom : 6px; } 
 	</style>
 	<script>
 		function regi() {

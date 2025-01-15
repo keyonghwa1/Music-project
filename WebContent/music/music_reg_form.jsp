@@ -19,7 +19,7 @@
 				alert("Please Upload File!!");
 				return;
 			}
-			f.submit();
+			f.submit(); 
 		}
 </script>
 
