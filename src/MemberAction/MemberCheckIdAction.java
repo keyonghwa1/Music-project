@@ -33,7 +33,7 @@ public class MemberCheckIdAction extends HttpServlet {
 		
 		if( list.size() == 0) {
 			res = "yes";
-		}
+		} 
 		
 		response.setContentType("text/plain; charset=utf-8"); 
 		

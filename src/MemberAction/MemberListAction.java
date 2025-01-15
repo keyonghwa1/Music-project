@@ -35,7 +35,7 @@ public class MemberListAction extends HttpServlet {
 		int currentPage = 1; // 현재 페이지 번호 (파라미터가 없을 것도 가정) 없으면 기본 1페이지
 		if( page != null && page.equals("") == false ) {
 			currentPage = Integer.parseInt(page);
-		}
+		} 
 		int pageSize = 10;
 		int totalSize = MemberDAO.getInstance().selectCount();
 		Paging paging = new Paging( pageSize, totalSize, currentPage );
