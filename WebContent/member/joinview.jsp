@@ -19,7 +19,7 @@
 			function del(idx){
 				if(confirm("정말 삭제하시겠습니까?") == false) {
 					return;
-				}
+				} 
 				var url = "member_delete.korea";
 				var param = "idx=" + idx;
 				sendRequest( url, param, resultFn, "POST" );

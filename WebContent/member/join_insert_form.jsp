@@ -17,7 +17,7 @@
 		<script>
 			var b_idCheck = false;
 			
-			function send(f){
+			function send(f){ 
 				var name = f.name.value.trim();
 				var id = f.id.value.trim();
 				var pw = f.pw.value.trim();

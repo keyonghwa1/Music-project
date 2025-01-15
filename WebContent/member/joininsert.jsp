@@ -18,7 +18,7 @@
 	         <div class="form-group">
 	            <input type="button" class="btn btn-warning btn-sm" value="Login" onClick="location.href='../login/login_form.jsp';">
 	           	<input type="button" class="btn btn-warning btn-sm" value="Main" onClick="location.href='../music/list.korea'">
-	         </div>
+	         </div> 
     	</div>
     	</div>
     	</form>
