@@ -28,7 +28,8 @@ public class MusicInsertResultAction extends HttpServlet {
 		request.setCharacterEncoding("utf-8");
 		
 		String path = request.getServletContext().getRealPath("/musicfile/");
-		
+		System.out.println(path);
+	
 		int max_size = 1024*1024*100; // �ִ� ���ε� �뷮 (100MB)
 		
 		MultipartRequest mr = new MultipartRequest(

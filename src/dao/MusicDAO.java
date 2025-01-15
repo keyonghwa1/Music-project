@@ -30,7 +30,7 @@ public class MusicDAO {
 		sqlSession.close();
 	}
 
-	public List<MusicVO> select() {
+	public List<MusicVO> select() { 
 		List<MusicVO> list = null;
 		SqlSession sqlSession = factory.openSession();
 		list = sqlSession.selectList("music.music_list");

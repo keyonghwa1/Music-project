@@ -26,7 +26,7 @@ public class MemberDAO {
 		factory = MyBatisConnector.getInstance().getSqlSessionFactory();
 	}
 	
-	public List<MemberVO> selectList() {
+	public List<MemberVO> selectList() { 
 		List<MemberVO> list = null;
 		
 		SqlSession sqlSession = factory.openSession();
