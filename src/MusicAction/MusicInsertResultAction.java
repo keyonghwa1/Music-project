@@ -40,7 +40,7 @@ public class MusicInsertResultAction extends HttpServlet {
 								new DefaultFileRenamePolicy() // ���� ���ϸ� �������� ��å
 								);
 		String m_musicfile = "no_file";
-		String m_image = "no_file";
+		String m_image = "no_file"; 
 		
 		File f = mr.getFile("m_musicfile"); // <input type="file" name="p_image_s"
 		if( f != null ) {

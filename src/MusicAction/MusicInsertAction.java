@@ -22,7 +22,7 @@ public class MusicInsertAction extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		RequestDispatcher disp = request.getRequestDispatcher("music_reg_form.jsp");
 		disp.forward(request, response);
-	}
+	} 
 
 }
 

@@ -34,7 +34,7 @@ public class MusicViewAction extends HttpServlet {
 		String name = request.getParameter("name");//작성자이름
 		MusicVO vo = MusicDAO.getInstance().selectOne( idx );
 		vo.setName(name);
-		request.setAttribute("vo", vo);
+		request.setAttribute("vo", vo); 
 		
 		//페이징 전 List<CommentsVO> list = CommentsDAO.getInstance().select(idx);
 		

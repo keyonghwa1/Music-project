@@ -30,7 +30,7 @@ public class MusicListAction extends HttpServlet {
 	 */
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		request.setCharacterEncoding("utf-8");
+		request.setCharacterEncoding("utf-8"); 
 		
 		//페이징처리 안했을때List<MusicVO> list = MusicDAO.getInstance().select();
 		

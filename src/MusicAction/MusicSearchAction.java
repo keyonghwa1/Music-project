@@ -29,6 +29,6 @@ public class MusicSearchAction extends HttpServlet {
 		List<MusicVO> list = MusicDAO.getInstance().select(search);
 		request.setAttribute("list", list);
 		RequestDispatcher disp = request.getRequestDispatcher("music_list.jsp");
-		disp.forward(request, response);
+		disp.forward(request, response); 
 	}
 }
