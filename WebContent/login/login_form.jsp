@@ -22,7 +22,7 @@
 		<link rel="stylesheet" href="../css/style.css">
  -->
 		<script>
-			function send(f) {
+			function send(f) { 
 				var id = f.id.value.trim();
 				var pw = f.pw.value.trim();
 				
