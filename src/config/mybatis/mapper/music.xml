@@ -22,7 +22,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	</select>
 	
 	<select id="music_one" parameterType="int" resultType="music">
-		select * from music where m_no = #{idx}
+		select * from music where m_no = #{idx} 
 	</select>
 	
 	
