@@ -25,6 +25,6 @@ public class LogoutAction extends HttpServlet {
 		request.getSession().removeAttribute("authority");
 		request.getSession().removeAttribute("id");
 		RequestDispatcher disp = request.getRequestDispatcher("../music/list.korea"); //메인으로 이동
-		disp.forward(request, response);
+		disp.forward(request, response); 
 	}
 }

@@ -36,7 +36,7 @@ public class LoginsAction extends HttpServlet {
 		String resultStr 	= ""; // 전송될 json 문자열
 		if( res_vo == null) {
 			param = "no";
-		}
+		} 
 		else {
 			param = "yes";
 			// 정상이라면 '세션'에 데이터 저장

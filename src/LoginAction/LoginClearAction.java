@@ -22,5 +22,5 @@ public class LoginClearAction extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		RequestDispatcher disp = request.getRequestDispatcher("../music/list.korea");
 		disp.forward(request, response);
-	}
+	} 
 }
